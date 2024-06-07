@@ -8,6 +8,8 @@
     <script type="module" src="./scripts/index.js"></script>
   </head>
   <body>
+
+  <section class="pokemon">
     <form id="form-pokemon" class="form-inline search-form js-search-form">
       <div class="form-group">
         <input type="text" class="form-control" name="query" />
@@ -22,9 +24,37 @@
     <hr>
     </br>
 
+  </section>
+
+</section>
+<section class="list">
     <button id="load-list" class="btn btn-primary">Завантажити список(10)</button>
     <button id="load-next" class="btn btn-primary">наступні</button>
     <button id="load-prev" class="btn btn-primary">попередні</button>
     <ul id="pokemon-list-container"></ul>
+
+
+  </br>
+  <hr>
+  </br>
+
+</section>
+
+<section class="news">
+
+  <h2>Пошук новин</h2>
+
+  <form id="form-news" class="form-inline search-form js-search-form">
+    <div class="form-group">
+      <input type="text" class="form-control" name="query" />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Шукати</button>
+  </form>
+
+  <div id="news-card-container"></div>
+
+</section>
+
   </body>
 </html>
